@@ -31,7 +31,7 @@ jobs:
       with:
         context: . # Build context is the root of the repository
         push: true # Push the image to the registry
-        tags: your-dockerhub-username/protobuf-serdeser:latest # Replace with your Docker Hub username and repo name
+        tags: mauryavishal1998/protobuf-deserialiser:latest # Replace with your Docker Hub username and repo name
         platforms: linux/amd64 # Specify platform if needed
 
     - name: Verify pushed image (Optional)
