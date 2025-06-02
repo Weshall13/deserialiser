@@ -10,6 +10,6 @@ FROM alpine:latest
 WORKDIR /root/
 COPY --from=builder /ser_deser .
 COPY templates/ ./templates/
-COPY static/ ./static/
+# COPY static/ ./static/ # Removed as the directory does not exist
 EXPOSE 8080
 CMD ["/root/ser_deser"] 
